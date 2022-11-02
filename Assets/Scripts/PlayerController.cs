@@ -20,8 +20,6 @@ public class PlayerController : MonoBehaviour
 
         Vector3 moveDirection = new Vector3(xDirection, 0.0f, zDirection);
 
-        transform.position += moveDirection*speed;a
-
-        
+        transform.position += moveDirection*speed;
     }
 }
